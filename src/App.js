@@ -1,24 +1,49 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
+import Footer from './component/footer/Footer';
+import Page from './component/home/Page';
+import Jav from './component/java/Jav';
+import Oriented from './component/object/Oriented';
+import Sql from './component/sql/Sql';
+
+import Signup from "./component/form/Signup";
+import About from "./component/about/About";
+import Navbar from "./component/nav/Navbar";
+
+
+
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+    <BrowserRouter>
+    
+    <Navbar/>
+    <Routes>
+      <Route path="/" element={<Page/>} />
+      <Route path="/react" element={<Jav/>} />
+      <Route path="/object" element={<Oriented/>} />
+      <Route path="/sql" element={<Sql/>} />
+    
+      <Route path="/signup" element={<Signup/>} />
+      <Route path="/about" element={<About/>} />
+      
+    </Routes>
+    <Footer/>
+  </BrowserRouter>
+    
+    
+    
+    
+    
+   
+    </>
   );
 }
 
