@@ -88,7 +88,7 @@ const Sql = () => {
               title="Simple is better"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700 mt-8 px-4"
             >
-              Database
+              Neo4j
             </a>
             <p className="mb-2 text-gray-700 px-4">
               Sed ut perspiciatis unde omnis iste natus error sit sed quia

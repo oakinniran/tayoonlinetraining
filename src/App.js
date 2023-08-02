@@ -5,8 +5,6 @@ import Page from './component/home/Page';
 import Jav from './component/java/Jav';
 import Oriented from './component/object/Oriented';
 import Sql from './component/sql/Sql';
-
-import Signup from "./component/form/Signup";
 import About from "./component/about/About";
 import Navbar from "./component/nav/Navbar";
 
@@ -30,8 +28,6 @@ function App() {
       <Route path="/react" element={<Jav/>} />
       <Route path="/object" element={<Oriented/>} />
       <Route path="/sql" element={<Sql/>} />
-    
-      <Route path="/signup" element={<Signup/>} />
       <Route path="/about" element={<About/>} />
       
     </Routes>

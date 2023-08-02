@@ -25,11 +25,11 @@ const Navbar = () => {
           >
             <img
             src={logo}
-            className="mx-auto object-cover rounded-full h-20 w-20 "
+            className="mx-auto object-cover rounded-full h-12 w-12 "
             alt=""
           />
           </div>
-          <span class="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+          <span class="ml-2 text-6 font-bold tracking-wide text-gray-100 uppercase">
           Online Education System
           </span>
                   
@@ -39,7 +39,7 @@ const Navbar = () => {
                 
                 <div className={open ? 'flex flex-col w-full transition-all duration-500 ease-in  gap-4 md:inline' : 'hidden md:inline'}>
                 <ul className="md:flex md:items-center md:pb-0 pb-8 " >
-                  <li className='md:ml-8 text-xl md:my-0 my-7'>
+                  <li className='md:ml-8 text-6 md:my-0 my-7'>
                     <Link
                       to="/"
                       className="nav-link"
@@ -47,7 +47,7 @@ const Navbar = () => {
                       HOME
                     </Link>
                   </li>
-                  <li className='md:ml-8 text-xl md:my-0 my-7'>
+                  <li className='md:ml-8 text-6 md:my-0 my-7'>
                     <Link
                       to="/react"
                      
@@ -58,7 +58,7 @@ const Navbar = () => {
                     </Link>
                   </li>
                   
-                  <li className='md:ml-8 text-xl md:my-0 my-7'>
+                  <li className='md:ml-8 text-6 md:my-0 my-7'>
                     <Link
                       to="/sql"
                      
@@ -67,7 +67,7 @@ const Navbar = () => {
                       SQL
                     </Link>
                   </li>
-                  <li className='md:ml-8 text-xl md:my-0 my-7'>
+                  <li className='md:ml-8 text-6 md:my-0 my-7'>
                     <Link
                       to="/object"
                      
@@ -76,7 +76,7 @@ const Navbar = () => {
                       OBJECT
                     </Link>
                   </li>
-                  <li className='md:ml-8 text-xl md:my-0 my-7'>
+                  <li className='md:ml-8 text-6 md:my-0 my-7'>
                     <Link
                       to="/about"
                      
@@ -85,7 +85,7 @@ const Navbar = () => {
                       ABOUT US
                     </Link>
                   </li>
-                  <li className='md:ml-8 text-xl md:my-0 my-7'>
+                  <li className='md:ml-8 text-6 md:my-0 my-7'>
                     <Link
                       to="https://applications.oes.com.ng/OESWebApp/"
                     
@@ -96,9 +96,9 @@ const Navbar = () => {
                   </li>
                   
 
-                  <li className='md:ml-8 text-xl md:my-0 my-7'>
+                  <li className='md:ml-8 text-6 md:my-0 my-7'>
                     <Link
-                      to="/signup"
+                      to="https://oes.com.ng/trainingstudent"
                      
                       className="bg-indigo-600 text-gray-100 font-medium py-2 px-4 rounded md:ml-8 hover:bg-indigo-700 duration-500"
                     >
