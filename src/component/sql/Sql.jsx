@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from "../../component/image/15.jpg";
-import cat from "../../component/image/16.jpg";
-import cap from "../../component/image/11.jpg";
+import logo from "../../component/image/flat-linear12.jpg";
+import cat from "../../component/image/flat-linear13.jpg";
+import cap from "../../component/image/gradient14.jpg";
 
 const Sql = () => {
   return (

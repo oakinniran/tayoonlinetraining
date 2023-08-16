@@ -1,7 +1,7 @@
 import React from 'react'
-import cap from "../../component/image/14.jpg";
-import cat from "../../component/image/13.jpg";
-import logo from "../../component/image/12.jpg";
+import cap from "../../component/image/black9.jpg";
+import cat from "../../component/image/e-learning10.jpg";
+import logo from "../../component/image/flat-design11.jpg";
 
 
 const Oriented = () => {

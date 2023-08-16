@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from "../../component/image/6.jpg";
-import cat from "../../component/image/7.jpg";
-import cap from "../../component/image/8.jpg";
+import logo from "../../component/image/online6.jpg";
+import cat from "../../component/image/online7.jpg";
+import cap from "../../component/image/online8.jpg";
 
 const Jav = () => {
   return (

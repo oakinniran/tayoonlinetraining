@@ -1,9 +1,9 @@
 import React from 'react'
-import logo from "../../component/image/2.jpg";
-import cat from "../../component/image/18.jpg";
-import cap from "../../component/image/19.jpg";
-import clone from "../../component/image/22.jpg";
-import lone from "../../component/image/17.jpg";
+import logo from "../../component/image/online5.jpg";
+import cat from "../../component/image/online1.jpg";
+import cap from "../../component/image/online3.jpg";
+import clone from "../../component/image/online4.jpg";
+import lone from "../../component/image/online2.jpg";
 
 
 
@@ -57,7 +57,7 @@ function Page() {
           <div className="flex items-center">
             <a
               href="https://applications.oes.com.ng/OESWebApp/"
-              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-700 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-700 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none uppercase"
             >
               Join our lecture class
             </a>
