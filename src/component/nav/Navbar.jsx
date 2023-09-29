@@ -54,7 +54,7 @@ const Navbar = () => {
                       className="nav-link"
                      
                     >
-                      REACT
+                      Data Analytics
                     </Link>
                   </li>
                   

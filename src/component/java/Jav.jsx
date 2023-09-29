@@ -1,17 +1,27 @@
 import React from 'react'
-import logo from "../../component/image/online6.jpg";
-import cat from "../../component/image/online7.jpg";
-import cap from "../../component/image/online8.jpg";
+import logo from "../../component/image/23.jpg";
+import cat from "../../component/image/24.jpg";
+import cap from "../../component/image/25.jpg";
+import lone from "../../component/image/online3.jpg";
 
 const Jav = () => {
   return (
+    <div>
+      <img
+          className="object-cover w-full h-78 rounded shadow-lg lg:rounded-none lg:w-full lg:shadow-none md:h-96 lg:h-85"
+          src={lone}
+          alt=""
+        />
     <div className='bg-violet-50'>
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      
+    
+
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         
         <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
           
-        React
+        Data Analytics
         </h2>
       </div>
 
@@ -23,21 +33,7 @@ const Jav = () => {
           src={logo}
           alt=""
         />
-        <a
-          href="/"
-          aria-label="Play Video"
-          className="absolute inset-0 flex items-center justify-center w-full h-full transition-colors duration-300 bg-opacity-50 group hover:bg-opacity-25"
-        >
-          <div className="flex items-center justify-center w-16 h-16 transition duration-300 transform bg-gray-100 rounded-full shadow-2xl group-hover:scale-110">
-            <svg
-              className="w-10 text-gray-900"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M16.53,11.152l-8-5C8.221,5.958,7.833,5.949,7.515,6.125C7.197,6.302,7,6.636,7,7v10 c0,0.364,0.197,0.698,0.515,0.875C7.667,17.958,7.833,18,8,18c0.184,0,0.368-0.051,0.53-0.152l8-5C16.822,12.665,17,12.345,17,12 S16.822,11.335,16.53,11.152z" />
-            </svg>
-          </div>
-        </a>
+        
       
             <a
               href="/"
@@ -45,19 +41,13 @@ const Jav = () => {
               title="Visit the East"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700 mt-8 px-4"
             >
-             REACT
+             Data, Cleansing Data and You
             </a>
             <p className="mb-2 text-gray-700 px-4">
               Sed ut perspiciatis unde omnis iste natus error sit sed quia
               consequuntur magni voluptatem doloremque.
             </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 px-4"
-            >
-              Learn more
-            </a>
+          
           </div>
         </div>
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
@@ -67,40 +57,20 @@ const Jav = () => {
           src={cat}
           alt=""
         />
-        <a
-          href="/"
-          aria-label="Play Video"
-          className="absolute inset-0 flex items-center justify-center w-full h-full transition-colors duration-300 bg-opacity-50 group hover:bg-opacity-25"
-        >
-          <div className="flex items-center justify-center w-16 h-16 transition duration-300 transform bg-gray-100 rounded-full shadow-2xl group-hover:scale-110">
-            <svg
-              className="w-10 text-gray-900"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M16.53,11.152l-8-5C8.221,5.958,7.833,5.949,7.515,6.125C7.197,6.302,7,6.636,7,7v10 c0,0.364,0.197,0.698,0.515,0.875C7.667,17.958,7.833,18,8,18c0.184,0,0.368-0.051,0.53-0.152l8-5C16.822,12.665,17,12.345,17,12 S16.822,11.335,16.53,11.152z" />
-            </svg>
-          </div>
-        </a>
+       
             <a
               href="/"
               aria-label="Category"
               title="Simple is better"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700 mt-8 px-4 "
             >
-              HyperText Markup Language (HTML)
+              Data Object and Visualization
             </a>
             <p className="mb-2 text-gray-700 px-4">
               Sed ut perspiciatis unde omnis iste natus error sit sed quia
               consequuntur magni voluptatem doloremque.
             </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 px-4"
-            >
-              Learn more
-            </a>
+           
           </div>
         </div>
 
@@ -112,43 +82,40 @@ const Jav = () => {
           src={cap}
           alt=""
         />
-        <a
-          href="/"
-          aria-label="Play Video"
-          className="absolute inset-0 flex items-center justify-center w-full h-full transition-colors duration-300 bg-opacity-50 group hover:bg-opacity-25"
-        >
-          <div className="flex items-center justify-center w-16 h-16 transition duration-300 transform bg-gray-100 rounded-full shadow-2xl group-hover:scale-110">
-            <svg
-              className="w-10 text-gray-900"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M16.53,11.152l-8-5C8.221,5.958,7.833,5.949,7.515,6.125C7.197,6.302,7,6.636,7,7v10 c0,0.364,0.197,0.698,0.515,0.875C7.667,17.958,7.833,18,8,18c0.184,0,0.368-0.051,0.53-0.152l8-5C16.822,12.665,17,12.345,17,12 S16.822,11.335,16.53,11.152z" />
-            </svg>
-          </div>
-        </a>
+       
             <a
               href="/"
               aria-label="Category"
               title="Film It!"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700 mt-8 px-4"
             >
-              Cascading Style Sheet (css)
+              Python
             </a>
             <p className="mb-2 text-gray-700 px-4">
               Sed ut perspiciatis unde omnis iste natus error sit sed quia
               consequuntur magni voluptatem doloremque.
             </p>
-            <a
-              href="/"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800 px-4"
-            >
-              Learn more
-            </a>
+           
           </div>
         </div>
       </div>
+      <div className=' pt-4 mb-20'>
+        <h4 className='text-3xl uppercase mb-2'><b>Expectations</b></h4><br></br>
+        <h6 className=' md-3'><b>Data Analytics Training Outline</b></h6><br></br>
+        <p>Understanding SQL Basics, Review the categories of SQL Commands, Understand the different Data Types, What are Constraints, How to use Operators, Conditional statements in SQL, Understanding SELECT statements, Working with Subqueries, How does JOINS work, Understanding Python Basics, Python Fundamentals, Operators, Control flow, Functions, Data Structure, Iterations, Exploratory Data Analysis, Data Collection, Data Cleaning, Univariate Analysis, Bivariate Analysis, Data Visualization, Working with python charting libraries, matplotlib, seaborn, plotly, Building Interactive dashboard, Capstone Portfolio project, Big-Query, Excel, Power Query, Power Pivot, Tabulet.</p>
+      </div>
+      <div className="flex items-center">
+        <p className=' relative px-2'>At the of end the program you must be able to build the dashboard </p><br/><br/>
+            <a
+              href="https://consoto-sales.streamlit.app/"
+              className="inline-flex items-center justify-center h-8 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-violet-700 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none uppercase"
+            >
+              Click Here
+            </a>
+            </div>
+      
+    </div>
+    
     </div>
     </div>
   )

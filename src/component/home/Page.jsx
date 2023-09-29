@@ -90,7 +90,7 @@ function Page() {
               title="Visit the East"
               className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-             REACT
+             Data Analytics
             </a>
             <p className="mb-2 text-gray-700">
             Work on projects. One of the best ways to learn programming is by working on projects. This will give you the opportunity to apply what you've learned and to develop your problem-solving skills.
@@ -141,7 +141,7 @@ function Page() {
           <div className="p-5 border border-t-0">
             <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
               <a
-                href=""
+                href="/"
                 className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
                 aria-label="Category"
                 title="traveling"
@@ -172,6 +172,35 @@ function Page() {
         </div>
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
           <img
+            src={cat}
+            className="object-cover w-full h-64"
+            alt=""
+          />
+          <div className="p-5 border border-t-0">
+           
+            <a
+              href="/project"
+              aria-label="Category"
+              title="Simple is better"
+              className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
+            >
+              Project Management
+            </a>
+            <p className="mb-2 text-gray-700">
+            Attend a programming training. If you want to learn programming quickly, you can attend a programming training on Hremsoft.oes.com.ng. Hremsoft typically offer intensive training in a short period of time.
+            </p>
+            <a
+              href="/project"
+              aria-label=""
+              className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+            >
+              Learn more
+            </a>
+          </div>
+        </div>
+
+        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+          <img
             src={clone}
             className="object-cover w-full h-64"
             alt=""
@@ -179,7 +208,7 @@ function Page() {
           <div className="p-5 border border-t-0">
             <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
               <a
-                href=""
+                href="/"
                 className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
                 aria-label="Category"
                 title="traveling"

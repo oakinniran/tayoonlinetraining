@@ -7,6 +7,7 @@ import Oriented from './component/object/Oriented';
 import Sql from './component/sql/Sql';
 import About from "./component/about/About";
 import Navbar from "./component/nav/Navbar";
+import Project from "./component/project/Project";
 
 
 
@@ -28,6 +29,7 @@ function App() {
       <Route path="/react" element={<Jav/>} />
       <Route path="/object" element={<Oriented/>} />
       <Route path="/sql" element={<Sql/>} />
+      <Route path="/project" element={<Project/>} />
       <Route path="/about" element={<About/>} />
       
     </Routes>
